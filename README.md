@@ -1,5 +1,8 @@
 # question_text_to_img
-works on exports from testgen in sakai format, or exports from tracs (sakai) in the "content packaging" format.
+
+Reads an xml assessment in zip file format, renders question/answer text html into an image, and creates a new xml assessment zip file with images replacing the text.  The intention is to prevent cutting-and-pasting text into a search engine during a timed assessment.
+
+Works on exports from Pearson testgen in sakai format, or exports from tracs (sakai) in the "content packaging" format.
 I'm working on getting the canvas formats functional.
 
 Currently, the export format is identified by how it stores attached files (jpg,png,gif,pdf) so you must have at least one image or attachment included in the assessment export (an image in a question, a pdf attachment to a part, or a pdf attachment to the whole assessment, etc.)
