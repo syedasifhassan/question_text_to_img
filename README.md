@@ -9,6 +9,10 @@ I'm working on getting the canvas formats functional.
 
 Currently, the export format is identified by how it stores attached files (jpg,png,gif,pdf) so you must have at least one image or attachment included in the assessment export (an image in a question, a pdf attachment to a part, or a pdf attachment to the whole assessment, etc.)
 
+Does not scrub unused embedded files (e.g. images that were embedded in your question html), which increases filesize slightly.  If you care about this, you can scrub them by importing the processed file into sakai then re-exporting a new zip, which will no longer contain the unused image files.
+
+Certain special characters may not render properly in the images.  I have manually patched degree and cdot for example, and the standard set of html entities (many symbols and accented letters), but it may not cover all math symbols.  If you encounter a character that doesn't render properly let me know and I can probably patch it.  Alternately, you can fix bad characters by including those characters in your questions as small images rather than plaintext.
+
 # Installation, configuration, and usage
 Requires the basic python installation (cpython) from http://python.org/
 (Anaconda won't work, it doesn't support one of the modules needed.  I haven't tested other python distros.)
