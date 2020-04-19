@@ -1,6 +1,6 @@
 # question_text_to_img
 
-Reads an xml assessment in zip file format, renders question/answer text html into an image, and creates a new xml assessment zip file with images replacing the text.  The intention is to prevent cutting-and-pasting text into a search engine during a timed assessment.
+Reads an xml assessment in zip file format, renders question/answer text html into images (including embedded figures), and creates a new xml assessment zip file with images replacing the text.  The intention is to prevent cutting-and-pasting text into a search engine during a timed assessment.
 
 Works on exports from Pearson testgen in sakai format, or exports from tracs (sakai) in the "content packaging" format.
 I'm working on getting the canvas formats functional.
