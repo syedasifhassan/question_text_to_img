@@ -2,6 +2,8 @@
 works on exports from testgen in sakai format, or exports from tracs (sakai) in the "content packaging" format.
 I'm working on getting the canvas formats functional.
 
+Currently, the export format is identified by how it stores attached files (jpg,png,gif,pdf) so you must have at least one image or attachment included in the assessment export (an image in a question, a pdf attachment to a part, or a pdf attachment to the whole assessment, etc.)
+
 Requires the basic python installation (cpython) from http://python.org/
 (Anaconda won't work, it doesn't support one of the modules needed.  I haven't tested other python distros.)
 
