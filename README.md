@@ -27,6 +27,6 @@ pathlib
 wcmatch
 
 In the directory where you run the python script, make a directory called "queue" and put your zip files there.
-after you run the script, any successfully processed files will be moved (unmodified) to "queue_completed", and the new files (with all text converted to images) will be created in "processed".
+After you run the script, any successfully processed files will be moved (unmodified) to "queue_completed", and the new files (with all text converted to images) will be created in "processed".
 
 You may wish to edit the width of the rendered images.  I chose 350 to fit on phone screens.  If you want to change it, it's on line 14 of the script.
