@@ -1,5 +1,8 @@
 # question_text_to_img
 
+# Context
+The Covid-19 pandemic forced college course instruction online.  There were concerns that students would be able to cheat on exams by web searching the questions.  Other professors were manually taking screenshots of test questions and building exams using the images.  I automated this process.
+
 # What it does
 Reads an xml assessment in zip file format, renders question/answer text html into images (including embedded figures), and creates a new xml assessment zip file with images replacing the text.  The intention is to prevent cutting-and-pasting text into a search engine during a timed assessment.
 
